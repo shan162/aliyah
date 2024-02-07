@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: maroon;
+
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -34,11 +34,33 @@ section {
 }
 
 footer {
-    background-color: maroon;
     color: #fff;
     text-align: center;
     padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about{
+    color: white;
+}
+
+.contact{
+    color: #fff;
+}
+.courses{
+    color: #fff;
+}
+
+.inquiries{
+    text-align: right;
 }
